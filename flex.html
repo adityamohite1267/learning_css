@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .flex-container{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-between;
+        } */
+        /* Or */
+        /* .flex-container{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-evenly;
+            
+        } */
+        .flex-container{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-between;
+            
+        }
+        .flex-items{
+            background-color: blueviolet;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .img_area{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-between;
+        }
+        .single-img{
+            display: flex;
+            justify-content: space-between;
+         margin: 10px;
+         padding: 100px ;
+        }
+        .img1{
+            filter: drop-shadow(10px 10px 10px blue);
+            height: 150px;
+            width: 150px;
+            margin: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <!-- li.flex-items*10 -->
+     <ul class="flex-container">
+        <li class="flex-items">1</li>
+        <li class="flex-items">2</li>
+        <li class="flex-items">3</li>
+        <li class="flex-items">4</li>
+        <li class="flex-items">5</li>
+        <li class="flex-items">6</li>
+        <li class="flex-items">7</li>
+        <li class="flex-items">8</li>
+        <li class="flex-items">9</li>
+        <li class="flex-items">10</li>
+     </ul>
+     <div class="img_area">
+        <div class="single-img">
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+            <img class="img1" src="images/rose-4372048_1280.png" />
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            margin: 40px;
+            
+        }
+        .circle{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border: 3px solid gray;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .blue{
+            background-color: blue;
+            left: 40px;
+            z-index: 5;
+            
+        }
+        .red{
+            background-color: red;
+            left: 100px;
+            z-index: 6;
+           
+        }
+        
+        .green{
+            background-color: green;
+            left: 150px;
+            z-index: 8;
+           opacity: 0.5;
+        }
+        .img1{
+            position: absolute;
+            height: 500px;
+            width: 500px;
+            z-index:  ;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="circle blue">blue</div>
+        <div class="circle red">red</div>
+        <div class="circle green">green</div>
+        <img class="  img1" src="images/market-3466906_1280.jpg" >
+    </div>
+   
+</body>
+</html>
