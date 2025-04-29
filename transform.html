@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: chocolate;
+            color: white;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            transition: 1s;/* 1sec*/
+            float: left;
+            margin-left: 50px;
+            margin-bottom: 10px;
+             display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px inset rgb(196, 218, 118);
+            font-size: larger;
+            font-style: oblique;
+            
+            
+        }
+        .box1:hover{
+            transform: translate(125px,125px);/*both x and y axis*/ 
+            background-color: blue;
+        }
+        .box2:hover{
+            transform: translateX(125px);/*x axis*/
+            background-color: blueviolet;
+        }
+        .box3:hover{
+            transform: translateY(125px);/*y axis*/
+            background-color: chartreuse;
+        }
+        .box4:hover{
+            transform: rotate(180deg);
+            background-color: aqua;
+        }
+        .box5:hover{
+           
+            transform: scale(1.1);
+        }
+        
+    </style>
+</head>
+<body>
+    <img class="box box1">translate</div>
+    <div class="box box2">translate X</div>
+    <div class="box box3">translate Y</div>
+    <div class="box box4">rotate</div>
+    <img src="images/zoo-8378189_1280.jpg" class="box box5">
+    
+</body>
+</html>
